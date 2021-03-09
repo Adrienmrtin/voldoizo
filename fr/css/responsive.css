@@ -2030,6 +2030,7 @@ and (max-width:768px){
         margin-right: 0;
     }
     .header_area .navbar-brand,.menu_toggle{
+        object-fit: contain;
         transition: all 0.2s linear;
     }
     .navbar .pl_100 {
@@ -2037,6 +2038,7 @@ and (max-width:768px){
         padding-right: 15px;
     }
     .header_area.navbar_fixed .navbar-brand,.navbar_fixed .menu_toggle{
+        object-fit: contain;
         margin-bottom: 0px;
     }
     .menu > .nav-item > .nav-link{
